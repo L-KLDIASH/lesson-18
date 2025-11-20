@@ -33,3 +33,15 @@ console.log(getCountryByCurrencyCode("USD"));
 console.log(getCountryByCurrencyCode("EUR"));
 console.log(getCountryByCurrencyCode("GEL"));
 console.log(getCountryByCurrencyCode("ABC"));
+
+// 4
+function toLowerCaseString(str) {
+  return str.toLowerCase();
+}
+console.log(toLowerCaseString("LUKA KLDIASHVILI"));
+
+// 5
+function getMoreThan100(numbers) {
+  return numbers.filter((num) => num > 100);
+}
+console.log(getMoreThan100([10, 150, 200, 50, 101]));
